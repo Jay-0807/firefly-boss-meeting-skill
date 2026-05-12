@@ -1,0 +1,31 @@
+# 用户私人 L3 状态文件——应放在 ~/.claude/boss/ 而不是 repo 里
+# 万一有人误把状态文件放进 repo，这里防一下
+**/people-graph.md
+**/topic-threads.md
+**/decision-ledger.md
+**/action-items.md
+**/meeting-index.md
+**/action-items-archive-*.md
+
+# 辅助 L3 文件（老板偏好 + 老板视图）——同样是用户私人数据
+**/boss_profile.md
+**/boss-dashboard.md
+
+# 但 schema 文档要保留
+!boss-meeting/references/l3-schema.md
+!**/SKILL.md
+
+# Claude Code 临时文件
+.claude/
+.DS_Store
+Thumbs.db
+
+# 测试报告与本地 plan
+TEST_REPORT.md
+plan-*.md
+
+# 编辑器临时
+*.swp
+*~
+.idea/
+.vscode/
