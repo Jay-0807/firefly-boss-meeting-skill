@@ -281,7 +281,7 @@
 
 ### 可选：脱敏前置宏（默认关闭）
 
-如果老板想要"渲染前自动脱敏"，可在调用 boss-meeting 时传 `redact_for_render=true` 参数，skill 在长图末尾追加一段脱敏后的"分享版 markdown"：
+如果老板想要"渲染前自动脱敏"，可在调用 生成模式 时传 `redact_for_render=true` 参数，skill 在长图末尾追加一段脱敏后的"分享版 markdown"：
 
 - 真实姓名 → `{角色 1}`、`{角色 2}`
 - 财务数字 → `{XX 万}`、`{XX%}`
