@@ -25,11 +25,11 @@
 
 ```bash
 # Windows
-git clone https://github.com/Jay-0807/firefly-boss-meeting-skills \
+git clone https://github.com/Jay-0807/firefly-boss-meeting-skill \
   "$env:USERPROFILE\.claude\skills\firefly-boss-meeting-skill"
 
 # macOS / Linux
-git clone https://github.com/Jay-0807/firefly-boss-meeting-skills \
+git clone https://github.com/Jay-0807/firefly-boss-meeting-skill \
   ~/.claude/skills/firefly-boss-meeting-skill
 ```
 
